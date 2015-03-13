@@ -1,0 +1,21 @@
+[AI]
+type=boundedWalking
+positions=10,0;13,4
+
+[ElementGraphic]
+graphic=monster.penguin
+graphicIsSimple=true
+
+[ElementType]
+team=villager
+level=0
+damage=6
+damageReduction=0
+staminaHitCost= 5
+chanceToHit= 60
+chanceToDodge= 10
+baseSpeed = 150
+maxHealth=10
+maxStamina=50
+healthRestorationRate= 120
+staminaRestorationRate= 120

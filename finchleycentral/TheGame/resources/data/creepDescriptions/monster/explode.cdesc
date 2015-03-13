@@ -1,0 +1,22 @@
+[AI]
+type=suicide
+typesReactiveTo=player
+teamsReactiveTo=
+
+[ElementGraphic]
+graphic=monster.exploding
+graphicIsSimple=true
+
+[ElementType]
+team=penguin
+level=0
+damage=30
+damageReduction=0
+staminaHitCost= 15
+chanceToHit= 100
+chanceToDodge= 3
+baseSpeed = 50
+maxHealth=40
+maxStamina=300
+healthRestorationRate= 200
+staminaRestorationRate= 200

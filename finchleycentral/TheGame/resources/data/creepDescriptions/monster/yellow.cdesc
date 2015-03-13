@@ -1,0 +1,22 @@
+[AI]
+type=following
+typesReactiveTo=
+teamsReactiveTo=player
+
+[ElementGraphic]
+graphic=monster.yellow
+graphicIsSimple=true
+
+[ElementType]
+team=monster
+level=2
+damage=6
+damageReduction=0
+staminaHitCost= 5
+chanceToHit= 60
+chanceToDodge= 10
+baseSpeed = 150
+maxHealth=10
+maxStamina=50
+healthRestorationRate= 120
+staminaRestorationRate= 120

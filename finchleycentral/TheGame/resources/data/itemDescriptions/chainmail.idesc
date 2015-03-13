@@ -1,0 +1,19 @@
+[ElementGraphic]
+graphic=chainmail
+graphicIsSimple=true
+
+[ElementType]
+name=Iron Chainmail
+itemType=Equipable
+
+[Equipable]
+slot=torso
+damage=0
+damageReduction=20
+chanceToHit=0
+chanceToDodge=-1
+baseSpeed = 0
+Health=0
+Stamina=0
+healthRestorationRate=0
+staminaRestorationRate=0

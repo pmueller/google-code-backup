@@ -1,0 +1,12 @@
+[ElementGraphic]
+graphic=bosskey
+graphicIsSimple=true
+
+[ElementType]
+name=Boss Key
+itemType=Quest
+
+[Quest]
+maxAmount=1
+useAmount=1
+description=Boss Key of Doom

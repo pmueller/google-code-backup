@@ -1,0 +1,20 @@
+[ElementGraphic]
+graphic=sword
+graphicIsSimple=true
+
+
+[ElementType]
+name=Beginner's Sword
+itemType=Equipable
+
+[Equipable]
+slot=leftHand
+damage=5
+damageReduction=0
+chanceToHit=0
+chanceToDodge=0
+baseSpeed = 40
+Health=0
+Stamina=0
+healthRestorationRate=0
+staminaRestorationRate=0

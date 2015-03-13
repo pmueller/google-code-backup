@@ -1,0 +1,24 @@
+[AI]
+type=bodyguard
+typesReactiveTo=
+typesDefendingFrom=
+teamsReactiveTo=player
+teamsDefendingFrom=monster
+
+[ElementGraphic]
+graphic=monster.penguin
+graphicIsSimple=true
+
+[ElementType]
+team=penguin
+level=0
+damage=30
+damageReduction=1
+staminaHitCost=5
+chanceToHit= 90
+chanceToDodge= 3
+baseSpeed = 100
+maxHealth=50
+maxStamina=30
+healthRestorationRate= 400
+staminaRestorationRate= 400

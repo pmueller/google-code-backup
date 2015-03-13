@@ -1,0 +1,19 @@
+[ElementGraphic]
+graphic=goldHelm
+graphicIsSimple=true
+
+[ElementType]
+name=Gold Helmet
+itemType=Equipable
+
+[Equipable]
+slot=head
+damage=0
+damageReduction=10
+chanceToHit=0
+chanceToDodge=0
+baseSpeed = 0
+Health=0
+Stamina=2
+healthRestorationRate=0
+staminaRestorationRate=0

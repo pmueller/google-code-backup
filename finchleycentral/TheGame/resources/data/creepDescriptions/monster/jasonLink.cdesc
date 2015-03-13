@@ -1,0 +1,22 @@
+[AI]
+type=following
+typesReactiveTo=
+teamsReactiveTo=player
+
+[ElementGraphic]
+graphic=monster.jasonLink
+graphicIsSimple=true
+
+[ElementType]
+team=monster
+level=3
+damage=30
+damageReduction=0
+staminaHitCost= 15
+chanceToHit= 90
+chanceToDodge= 3
+baseSpeed = 220
+maxHealth=400
+maxStamina=30
+healthRestorationRate= 200
+staminaRestorationRate= 200

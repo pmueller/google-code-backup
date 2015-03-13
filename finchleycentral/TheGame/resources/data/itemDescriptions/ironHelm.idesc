@@ -1,0 +1,19 @@
+[ElementGraphic]
+graphic=ironHelm
+graphicIsSimple=true
+
+[ElementType]
+name=Iron Helmet
+itemType=Equipable
+
+[Equipable]
+slot=head
+damage=0
+damageReduction=5
+chanceToHit=0
+chanceToDodge=-1
+baseSpeed = 0
+Health=0
+Stamina=0
+healthRestorationRate=0
+staminaRestorationRate=0

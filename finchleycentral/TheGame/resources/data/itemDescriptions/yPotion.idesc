@@ -1,0 +1,11 @@
+[ElementGraphic]
+graphic=yPotion
+graphicIsSimple=true
+
+[ElementType]
+name=Yellow Potion
+itemType=Consumable
+
+[Consumable]
+healing=100
+duration=0

@@ -1,0 +1,20 @@
+[AI]
+type=projectile
+
+[ElementGraphic]
+graphic=monster.arrow
+graphicIsSimple=false
+
+[ElementType]
+team=projectile
+level=0
+damage=3
+damageReduction=0
+staminaHitCost= 15
+chanceToHit= 100
+chanceToDodge= 3
+baseSpeed = 100
+maxHealth=40
+maxStamina=30
+healthRestorationRate= 200
+staminaRestorationRate= 200

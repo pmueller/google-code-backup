@@ -1,0 +1,12 @@
+[ElementGraphic]
+graphic=silverkey
+graphicIsSimple=true
+
+[ElementType]
+name=Silver Key
+itemType=Quest
+
+[Quest]
+maxAmount=1
+useAmount=1
+description=Silver Key of Doom

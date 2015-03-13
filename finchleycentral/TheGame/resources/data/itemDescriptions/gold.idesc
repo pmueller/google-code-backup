@@ -1,0 +1,10 @@
+[ElementGraphic]
+graphic=gold
+graphicIsSimple=true
+
+[ElementType]
+name=Gold
+itemType=Money
+
+[Money]
+moneyMultipler=3

@@ -1,0 +1,11 @@
+[ElementGraphic]
+graphic=bPotion
+graphicIsSimple=true
+
+[ElementType]
+name=Blue Potion
+itemType=Consumable
+
+[Consumable]
+healing=100
+duration=0

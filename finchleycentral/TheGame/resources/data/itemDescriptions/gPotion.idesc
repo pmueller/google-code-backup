@@ -1,0 +1,11 @@
+[ElementGraphic]
+graphic=gPotion
+graphicIsSimple=true
+
+[ElementType]
+name=Green Potion
+itemType=Consumable
+
+[Consumable]
+healing=100
+duration=0

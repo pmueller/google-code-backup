@@ -1,0 +1,11 @@
+[ElementGraphic]
+graphic=heart
+graphicIsSimple=true
+
+[ElementType]
+name=Heart
+itemType=Instant
+
+[Instant]
+healing=100
+duration=10

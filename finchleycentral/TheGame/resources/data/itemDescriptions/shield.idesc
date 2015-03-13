@@ -1,0 +1,20 @@
+[ElementGraphic]
+graphic=shield
+graphicIsSimple=true
+
+
+[ElementType]
+name=Ancient Shield
+itemType=Equipable
+
+[Equipable]
+slot=rightHand
+damage=5
+damageReduction=10
+chanceToHit=0
+chanceToDodge=0
+baseSpeed = 40
+Health=0
+Stamina=0
+healthRestorationRate=0
+staminaRestorationRate=0

@@ -1,0 +1,21 @@
+[AI]
+type=explain
+text=You must break into the castle and defeat the evil JasonLink., He killed the Good King of Happiness and stole the Crown of Justice!, To do so you must get the Silver Key from the Roaming Wolves., When you are done bring me his hat to prove that he is defeated., Good luck!,  
+
+[ElementGraphic]
+graphic=monster.ninja
+graphicIsSimple=true
+
+[ElementType]
+team=quest
+level=1
+damage=6
+damageReduction=1000
+staminaHitCost= 5
+chanceToHit= 60
+chanceToDodge= 0
+baseSpeed = 150
+maxHealth=10
+maxStamina=50
+healthRestorationRate= 120
+staminaRestorationRate= 120

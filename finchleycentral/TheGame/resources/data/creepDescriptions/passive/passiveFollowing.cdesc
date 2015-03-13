@@ -1,0 +1,22 @@
+[AI]
+type=passiveFollowing
+typesReactiveTo=
+teamsReactiveTo=player
+
+[ElementGraphic]
+graphic=monster.penguin
+graphicIsSimple=true
+
+[ElementType]
+team=penguin
+level=1
+damage=6
+damageReduction=0
+staminaHitCost= 5
+chanceToHit= 60
+chanceToDodge= 10
+baseSpeed = 150
+maxHealth=10
+maxStamina=50
+healthRestorationRate= 120
+staminaRestorationRate= 120

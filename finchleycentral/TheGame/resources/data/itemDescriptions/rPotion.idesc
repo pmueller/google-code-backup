@@ -1,0 +1,11 @@
+[ElementGraphic]
+graphic=rPotion
+graphicIsSimple=true
+
+[ElementType]
+name=Red Potion
+itemType=Consumable
+
+[Consumable]
+healing=100
+duration=0

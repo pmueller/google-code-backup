@@ -1,0 +1,11 @@
+[ElementGraphic]
+graphic=pPotion
+graphicIsSimple=true
+
+[ElementType]
+name=Purple Potion
+itemType=Consumable
+
+[Consumable]
+healing=100
+duration=0

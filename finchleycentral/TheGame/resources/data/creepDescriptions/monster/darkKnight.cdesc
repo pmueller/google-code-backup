@@ -1,0 +1,22 @@
+[AI]
+type=following
+typesReactiveTo=
+teamsReactiveTo=player
+
+[ElementGraphic]
+graphic=monster.darkKnight
+graphicIsSimple=false
+
+[ElementType]
+team=monster
+level=5
+damage=25
+damageReduction=0
+staminaHitCost= 5
+chanceToHit= 60
+chanceToDodge= 10
+baseSpeed = 150
+maxHealth=150
+maxStamina=50
+healthRestorationRate= 120
+staminaRestorationRate= 120

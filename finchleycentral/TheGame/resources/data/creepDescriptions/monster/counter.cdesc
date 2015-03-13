@@ -1,0 +1,20 @@
+[AI]
+type=counter
+
+[ElementGraphic]
+graphic=monster.penguin
+graphicIsSimple=true
+
+[ElementType]
+team=penguin
+level=1
+damage=50
+damageReduction=1
+staminaHitCost=5
+chanceToHit= 90
+chanceToDodge= 3
+baseSpeed = 200
+maxHealth=500
+maxStamina=30
+healthRestorationRate= 400
+staminaRestorationRate= 400
