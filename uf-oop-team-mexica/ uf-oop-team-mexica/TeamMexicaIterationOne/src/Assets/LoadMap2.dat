@@ -1,0 +1,40 @@
+Map{
+	size: 20 20
+	startLoc: 5 5
+	grass: Terrain{
+		passable: true
+		rep: /Assets/GrassTile1
+	}
+	mountain: Terrain{
+		passable: false
+		rep: /Assets/Mountains1
+	}
+	water: Terrain{
+		passable: false
+		rep: /Assets/Water1
+	}
+	Grid2{
+		~ . m m m m m m ~ . ~ m m m m m m m m m ;
+		~ . . ~ ~ . . . . . . . . . . . . . . m ;
+		. . . ~ . . . . . . . . . . . . . . . m ;
+		m . ~ ~ ~ . . . . . . . . . . . . . . m ;
+		m . ~ . ~ . . . . . . . . . . . . . . m ;
+		m . . . . ~ . . . . . . . . . . . . . m ;
+		m . . . . ~ . . . . . . . . . . . . . m ;
+		m . . . . ~ . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m . . . . . . . . . . . . . . . . . . m ;
+		m m m m m m m m m m m m m m m m m m m m ;
+	}
+}
+
+

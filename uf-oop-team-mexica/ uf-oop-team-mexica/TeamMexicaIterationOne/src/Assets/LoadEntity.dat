@@ -1,0 +1,27 @@
+Entity{
+	location: 2 2
+	occupation: Sneak
+	equip1: InventoryItem{
+		type: weapon
+		name: Sword
+		bonus: 2
+	}
+	equip2: InventoryItem{
+		type: armor
+		name: Shield
+		bonus: 3
+	}
+	item: InventoryItem{
+              type: other
+              name: µKey
+        }
+        item: InventoryItem{
+		type: other
+		name: Widget
+	}
+        lives: 3
+        exp: 9002
+	hp: 520
+        mana: 271
+
+}

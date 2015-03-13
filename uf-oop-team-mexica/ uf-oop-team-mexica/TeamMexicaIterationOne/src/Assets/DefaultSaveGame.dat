@@ -1,0 +1,149 @@
+Map{
+size: 20 20
+startLoc: 5 5
+grass: Terrain{
+	passable: true
+	rep: Assets/GrassTile1
+}
+mountain: Terrain{
+	passable: false
+	rep: Assets/Mountains1
+}
+water: Terrain{
+	passable: false
+	rep: Assets/Water1
+}
+Grid{
+m m m ~ ~ m m m m m m ~ ~ m m m m m m m 
+m . ~ ~ . . . . . . . . ~ ~ . . m m m m 
+m . ~ ~ ~ ~ ~ . . . . . . ~ ~ m m m m m 
+m . ~ ~ . . ~ . . . . . . . ~ ~ m m m m 
+m . ~ ~ . ~ ~ ~ . . . . . m m ~ ~ m m m 
+m . . ~ m . . ~ . . . . m m ~ ~ ~ ~ m m 
+m . ~ ~ ~ ~ . ~ . . . m m m . . ~ ~ ~ ~ 
+m ~ . . . . . ~ . . m m m m . . ~ ~ ~ ~ 
+m ~ . . . . . . . . m m m m . . ~ ~ ~ ~ 
+m ~ . . . . . . . . . . . . . . ~ ~ ~ ~ 
+~ . . . . . . . . . m m m m . . ~ ~ ~ ~ 
+~ . . . . . . . . . m m m m . . . . m m 
+~ . . . . . . . . . . m m m m m m . m m 
+m . . . . . . . . . . . m m m . m . m m 
+m . . . . . . . . . . . . m m . . . m m 
+m . . . . . . . . . . . . . m m m m m m 
+m . . . . . . . . . . . . . . m m m m m 
+m . . . . . . . . . . . . . . . m m m m 
+m . . . . . . . . . . . . . . . . m m m 
+m m m m m m m m m m m m m m m m m m m m 
+}
+}
+ObstacleItem{
+	location: 3 7
+	rep: Assets/OpenChest
+}
+AoE{
+	type: death
+	location: 4 3
+	num: 8
+	rep: Assets/DamageAoE
+}
+Decal{
+	location: 4 3
+	rep: Assets/Skull
+}
+Entity{
+	location: 4 4
+	occupation: Summoner
+	equip1: InventoryItem{
+		type: armor
+		rep: Assets/Armor
+		name: Armor
+		bonus: 10
+	}
+	equip2: InventoryItem{
+		type: weapon
+		rep: Assets/Sword
+		name: SwishingSword
+		bonus: 20
+	}
+	item: InventoryItem{
+		type: weapon
+		rep: Assets/Sword
+		name: RustySword
+		bonus: 5
+	}
+	lives: 1
+	exp: 3435
+	hp: 1010
+	mana: 940
+}
+TakeableItem{
+	location: 5 3
+	rep: Assets/key
+	item: InventoryItem{
+		type: other
+		name: key
+		rep: Assets/key
+	}
+}
+ObstacleItem{
+	location: 6 7
+	rep: Assets/Boulder
+}
+Decal{
+	location: 7 9
+	rep: Assets/RedX
+}
+Decal{
+	location: 8 8
+	rep: Assets/Skull
+}
+Decal{
+	location: 8 10
+	rep: Assets/Star
+}
+ObstacleItem{
+	location: 9 8
+	rep: Assets/Boulder
+}
+ObstacleItem{
+	location: 9 10
+	rep: Assets/Boulder
+}
+AoE{
+	type: exp
+	location: 10 10
+	num: 15
+	rep: Assets/XPAOE
+}
+AoE{
+	type: death
+	location: 15 6
+	num: 8
+	rep: Assets/DamageAoE
+}
+Decal{
+	location: 15 6
+	rep: Assets/Skull
+}
+AoE{
+	type: damage
+	location: 15 7
+	num: 3
+	rep: Assets/DamageAoE
+}
+AoE{
+	type: heal
+	location: 15 8
+	num: 5
+	rep: Assets/HealingAOE
+}
+Decal{
+	location: 15 9
+	rep: Assets/SuperAwesomePentagramStar
+}
+AoE{
+	type: exp
+	location: 15 10
+	num: 5
+	rep: Assets/XPAOE
+}

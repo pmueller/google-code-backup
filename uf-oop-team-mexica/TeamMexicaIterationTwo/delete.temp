@@ -1,0 +1,61 @@
+i 6
+d 4.4
+s « Testy »
+s « This is a test »
+startList&
+i 20
+i 0
+i 1
+i 2
+i 3
+i 4
+i 5
+i 6
+i 7
+i 8
+i 9
+i 10
+i 11
+i 12
+i 13
+i 14
+i 15
+i 16
+i 17
+i 18
+i 19
+&endList
+M& Armor
+s « helm »
+i 5
+s « Unnamed item »
+&m
+startList&
+i 5
+M& Armor
+s « SubHelm »
+i 1
+s « Unnamed item »
+&m
+M& Armor
+s « SubHelm »
+i 6
+s « Unnamed item »
+&m
+M& Armor
+s « SubHelm »
+i 11
+s « Unnamed item »
+&m
+M& Armor
+s « SubHelm »
+i 16
+s « Unnamed item »
+&m
+M& Armor
+s « SubHelm »
+i 21
+s « Unnamed item »
+&m
+&endList
+s « Cur HP »
